@@ -1,0 +1,204 @@
+header,
+section {
+	overflow-x: hidden;
+}
+
+/* navbar */
+header nav {
+	background: white;
+}
+
+header ul li button a {
+	text-decoration: none;
+	color: #f44259;
+}
+
+header ul li button a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+header a {
+	font-family: sans-serif;
+	font-size: 15px;
+	color: black;
+}
+
+header .nav-item {
+	padding: 12px;
+}
+
+header .navbar-brand:hover {
+	color: #f44259;
+}
+
+header .nav-link:hover {
+	color: #f44259;
+}
+
+/* AKHIR NAVBAR */
+/* Penjelasan */
+header .row .penjelasan {
+	padding: 180px 10px 0px 35px;
+	font-family: sans-serif;
+}
+
+header .container .penjelasan h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+header .container .penjelasan p {
+	padding: 20px 0px;
+	font-size: 19px;
+	color: grey;
+}
+
+/* Gambar */
+header .row .gambar {
+	padding: 100px 0px 0px 0px;
+}
+
+header .row .gambar img {
+	width: 100%;
+}
+
+/*slider*/
+
+.section-1 {
+	padding: 50px 0px;
+}
+
+.section-1 .row .col-md-12 .slider-gambar {
+	border-radius: 32px;
+	height: 480px;
+}
+
+/*nilai point aplikasi*/
+.section-1 .row .col-md-4 img {
+	width: 100px;
+}
+
+.section-1 .nilai {
+	padding-top: 50px;
+}
+
+/*  Section 2  */
+/*parallax*/
+.section-2 .parallax {
+	/*background-image: url("assets/gambar-paralax.jpg");*/
+	min-height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-2 .cover .content h1 {
+	margin-top: -200px;
+	padding-top: 60px;
+	padding-bottom: 103px;
+	color: white;
+}
+
+/*angka darah*/
+.section-2 .numbers .kotak {
+	background: white;
+	width: 255px;
+	height: 200px;
+	padding-top: 20px;
+	border-radius: 0.5em;
+	box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.24);
+}
+
+.section-2 .numbers {
+	margin-top: -60px;
+}
+
+.section-2 .numbers .kotak h1 {
+	font-size: 70px;
+	color: #f44259;
+}
+
+.section-2 .numbers .kotak p {
+	font-size: 30px;
+	font-weight: bold;
+	color: #f44259;
+}
+
+/*pertanyaan*/
+.pertanyaan .accordion {
+	padding: 80px 0px;
+}
+
+.pertanyaan h2 button {
+	color: black;
+	text-decoration: none;
+}
+
+.pertanyaan h2 button:hover {
+	color: #f44259;
+	text-decoration: none;
+}
+
+.pertanyaan>h1 {
+	padding-top: 15vmin;
+	padding-bottom: 0.1em;
+}
+
+footer {
+	background: rgba(0, 0, 0, 0.815);
+	overflow-x: hidden;
+	padding: 100px 0px;
+}
+
+
+/* It is Adjacent sibling combinator */
+footer {
+	z-index: 1031;
+	color: white;
+	background: #1c1d1d;
+}
+
+footer .donorin h3 {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+footer p {
+	color: grey;
+}
+
+footer .pertama {
+	margin-top: 20px;
+}
+
+footer .sosmed span {
+	margin-left: 5px;
+}
+
+.navbar-event.berubah {
+	box-shadow: 0px 2px 11px -5px rgba(0, 0, 0, 0.75);
+}
+
+/*donasi*/
+.cari_tempat {
+	padding: 100px 0px;
+}
+
+.box-footer {
+	padding-top: 20px;
+}
+
+/*profile user*/
+.dashboard-profile {
+	padding: 100px 0px;
+}
+
+.dashboard-profile .media {
+	padding-bottom: 30px;
+}
+
+.dashboard-profile img {
+	width: 125px;
+}

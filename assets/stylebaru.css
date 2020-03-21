@@ -1,0 +1,135 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* menu navigasi */
+nav ul li {
+	font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: #dc3545;
+}
+
+/* header */
+
+.penjelasan p {
+	color: #6c757d;
+}
+
+.penjelasan button.btn {
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.penjelasan button.btn:last-child {
+	color: #6c757d;
+}
+
+.penjelasan button.btn:last-child:hover {
+	color: black;
+}
+
+/* slider */
+.section-1 .slider-gambar {
+	border-radius: 32px;
+}
+
+/* nilai */
+
+.section-1 .nilai img {
+	padding-bottom: 15px;
+}
+
+/* stok darah */
+.section-2 .parallax {
+	background-image: url("../assets/image/gambar-paralax.jpg");
+	min-height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-2 .parallax h1 {
+	color: white;
+	left: 50%;
+}
+
+/*angka darah*/
+.section-2 .numbers {
+	margin-top: -60px;
+}
+
+.section-2 .numbers .kotak {
+	font-weight: 700;
+	color: #f44259;
+	background: white;
+	border-radius: 0.5em;
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.24);
+	transition-duration: 0.5s;
+}
+
+.section-2 .numbers .kotak:hover {
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.24);
+}
+
+.section-2 .numbers .kotak p {
+	font-size: 50px;
+}
+
+/*pertanyaan*/
+.pertanyaan h2 button {
+	color: black;
+}
+
+.pertanyaan h2 button:hover {
+	color: #f44259;
+}
+
+.pertanyaan>h1 {
+	padding-top: 15vmin;
+}
+
+/* footer */
+footer {
+	background: rgba(0, 0, 0, 0.815);
+	padding: 50px 0px;
+	;
+	color: white;
+}
+
+
+footer p {
+	color: grey;
+}
+
+footer a {
+	text-decoration: none;
+	color: grey;
+	display: block;
+	padding: 5px 0;
+}
+
+footer a:hover {
+	color: white;
+}
+
+footer .sosmed span {
+	margin-left: 5px;
+}
+
+.copy-right {
+	background-color: #1c1d1d;
+	color: grey;
+}
+
+/*************/
+/** mobile **/
+/************/
+@media (max-width: 576px) {
+
+	footer div {
+		text-align: center;
+	}
+}
